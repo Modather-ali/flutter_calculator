@@ -45,21 +45,14 @@ class Button extends StatelessWidget {
                   fontWeight: FontWeight.w700,
                 ),
               )
-            : Stack(
-                alignment: Alignment.center,
-                children: [
-                  Icon(
-                    buttonMark,
+            :
+             Icon(
+                    Icons.backspace_outlined,
                     textDirection: TextDirection.rtl,
                     color: Colors.cyan,
                     size: 35,
                   ),
-                  const Icon(
-                    Icons.close,
-                    color: Colors.cyan,
-                  ),
-                ],
-              ),
+                
       ),
     );
   }
